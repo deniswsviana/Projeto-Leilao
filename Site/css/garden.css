@@ -1,0 +1,131 @@
+@import url(./style.css);
+@import url(./global.css);
+.garden {
+  height: 400px;
+}
+.img-banner {
+  background-image: url(../img-low/anel-casamento/amanda-mocci-Zyp3t67rrP4-unsplash.webp);
+  height: 500px;
+}
+.divisao {
+  height: 15px;
+  background-color: #1d1f21;
+}
+.garden-title{
+  position: absolute;
+  top: 75%;
+  left: 4%;
+  width: 400px;
+  font-size: 3rem; 
+}
+.garden-text{
+  position: absolute;
+  top: 90%;
+  width: 500px;
+  left: 5%;
+}
+.backgarden {
+  background-image: url(../img-low/annie-spratt-8mqOw4DBBSg-unsplash\ \(1\).webp);
+  height: 910px;
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.backgalery {
+  background-color: rgb(77, 77, 77); /* Fallback color */
+  background-color: rgba(50, 50, 50, 0.5); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 217%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 95%;
+  padding: 20px;
+  text-align: center;
+}
+.garden-galeria {
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 10px 0px;
+  
+}
+.img-garden {
+  background-color: #fcfcfc;
+  height: 400px;
+  width: 350px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+
+}
+.temp-btn{
+  display: flex;
+  margin: 25px;
+}
+.temp{
+  margin: auto;
+  color: black;
+  text-align: center;
+  justify-self: center;
+}
+.lance{
+  position: relative;
+  text-align: end;
+}
+.garden-img1 {
+  background-image: url(../img-low/anel-casamento/amanda-mocci-Zyp3t67rrP4-unsplash.webp);
+  height: 300px;
+  width: 300px;
+  margin: 20px auto;
+}
+.garden-img2 {
+  background-image: url(../img-low/joel-de-vera-hV3K5Wpyst4-unsplash.webp);
+  height: 300px;
+  width: 300px;
+  margin: 20px auto;
+}
+.garden-img3 {
+  background-image: url(../img-low/martina-de-marchena-jcrJwMH3O5I-unsplash.webp);
+  height: 300px;
+  width: 300px;
+  margin: 20px auto;
+}
+.garden-img4 {
+  background-image: url(../img-low/blake-carpenter-NydHbLFLoS8-unsplash.webp);
+  height: 300px;
+  width: 300px;
+  margin: 20px auto;
+}
+.garden-img5 {
+  background-image: url(../img-low/denny-muller-AKbE5xlIZXA-unsplash.webp);
+  height: 300px;
+  width: 300px;
+  margin: 20px auto;
+}
+.garden-img6 {
+  background-image: url(../img-low/june-admiraal-Udxjrgo5dwk-unsplash.webp);
+  height: 300px;
+  width: 300px;
+  margin: 20px auto;
+}
+.garden-img7 {
+  background-image: url(../img-low/arteum-ro-9QArBVqD7mE-unsplash.webp);
+  height: 300px;
+  width: 300px;
+  margin: 20px auto;
+}
+.garden-img8 {
+  background-image: url(../img-low/arteum-ro-VJZdxfvFGuo-unsplash.webp);
+  height: 300px;
+  width: 300px;
+  margin: 20px auto;
+}

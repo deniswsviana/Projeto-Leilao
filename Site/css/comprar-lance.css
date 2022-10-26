@@ -1,0 +1,36 @@
+.pacotes-titulo {
+  text-align: center;
+  font-size: 52px;
+  text-transform: uppercase;
+  border-bottom: solid 2px;
+  margin-bottom: 40px;
+}
+
+.pacote-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px 15px;
+  background-color: rgb(0, 0, 0, 0.1);
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 1px 1px 16px rgb(0, 0, 0, 0.4);
+}
+
+
+.pacote-area a {
+  margin-top: 30px;
+  padding: 15px 30px;
+  background-color: #ecb365;
+  font-size: 24px;
+  color: white;
+  text-transform: uppercase;
+  border-radius: 12px;
+}
+
+
+
+#banner-comprar-lance {
+  padding: 30px;
+  background-color: teal;
+}

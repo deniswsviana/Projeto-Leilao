@@ -1,0 +1,128 @@
+@import url(./style.css);
+
+.garden {
+  height: 400px;
+}
+.img-banner {
+  background-image: url(../img-low/desert/gita-krishnamurti-TUH4KRKoUEg-unsplash.webp);
+  height: 500px;
+}
+.divisao {
+  height: 15px;
+  background-color: #1d1f21;
+}
+.garden-title{
+  position: absolute;
+  top: 75%;
+  left: 4%;
+  width: 400px;
+  font-size: 3rem; 
+}
+.garden-text{
+  position: absolute;
+  top: 90%;
+  width: 500px;
+  left: 5%;
+}
+.backgarden {
+  background-image: url(../img-low/pawel-czerwinski-Zd315A95aqg-unsplash.webp);
+  height: 910px;
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.backgalery {
+  background-color: rgb(77, 77, 77); /* Fallback color */
+  background-color: rgba(50, 50, 50, 0.5); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 217%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 95%;
+  padding: 20px;
+  text-align: center;
+}
+.garden-galeria {
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 10px 0px;
+}
+.img-garden {
+  background-color: #fcfcfc;
+  height: 400px;
+  width: 350px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.temp-btn{
+  display: flex;
+  margin: 25px;
+}
+.temp{
+  margin: auto;
+  color: black;
+  text-align: center;
+  justify-self: center;
+}
+.lance{
+  position: relative;
+  text-align: end;
+}
+.garden-img1 {
+  background-image: url(../img-low/desert/alissa-de-leva-DeM8mEQf138-unsplash.webp);
+  height: 300px;
+  width: 300px;
+  margin: 20px auto;
+}
+.garden-img2 {
+  background-image: url(../img-low/desert/alex-azabache-y2ErhoE92KA-unsplash.webp);
+  height: 300px;
+  width: 300px;
+  margin: 20px auto;
+}
+.garden-img3 {
+  background-image: url(../img-low/desert/anastasia-anastasia-cTM8psdeOTQ-unsplash.webp);
+  height: 300px;
+  width: 300px;
+  margin: 20px auto;
+}
+.garden-img4 {
+  background-image: url(../img-low/desert/birgith-roosipuu-k--InFqWwu4-unsplash.webp);
+  height: 300px;
+  width: 300px;
+  margin: 20px auto;
+}
+.garden-img5 {
+  background-image: url(../img-low/desert/nati-melnychuk-5ngCICAXiH0-unsplash.webp);
+  height: 300px;
+  width: 300px;
+  margin: 20px auto;
+}
+.garden-img6 {
+  background-image: url(../img-low/desert/sabrianna-WAbhmJQbnCA-unsplash.webp);
+  height: 300px;
+  width: 300px;
+  margin: 20px auto;
+}
+.garden-img7 {
+  background-image: url(../img-low/desert/samar-ahmad-zz6-LqiW4mY-unsplash.webp);
+  height: 300px;
+  width: 300px;
+  margin: 20px auto;
+}
+.garden-img8 {
+  background-image: url(../img-low/desert/luisana-galicia-lR2a23wy3PA-unsplash.webp);
+  height: 300px;
+  width: 300px;
+  margin: 20px auto;
+}

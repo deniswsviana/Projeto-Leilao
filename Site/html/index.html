@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/swiper.css" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Harvest</title>
+</head>
+
+<body>
+  <header class="menu">
+    <nav class="menu-list">
+      <a href="./index.html"><img src="../logo/LOGO.svg" alt=""></a>
+      <div class="menu-list links">
+        <a href="./leiloes/leiloes.html">Leilões</a>
+        <a href="./compra-venda/cvend.html">Comprando <span>&</span> vendendo</a>
+        <a href="./especialidades/especialidades.html">Especialidades</a>
+        <a href="./sobre/sobre.html">Sobre</a>
+        <a href="./meus-lotes/mlotes.html">Meus Lotes</a>
+      </div>
+      <div class="btn-login">
+        <a class="btn" href="./compra-lance/comprar-lance.html">Comprar Lance</a>
+        <a href="./"><img src="../login/carbon_user-avatar.svg" alt="login"></a>
+      </div>
+    </nav>
+  </header>
+  <section class="banner swiper mySwiper">
+    <div class="banner swiper-wrapper">
+      <div class="banner swiper-slide img1">
+        <a class="lote btn-lote1" href="./lotes/garden/garden.html">Ver Lote</a>
+        <a class="lote form1" href="./compra-venda/cvend.html">Instruções</a>
+      </div>
+      <div class="banner swiper-slide img2">
+        <a class="lote btn-lote1" href="./lotes/desert/desert.html">Ver Lote</a>
+        <a class="lote form1" href="./compra-venda/cvend.html">Instruções</a>
+      </div>
+      <div class="banner swiper-slide img3">
+        <a class="lote btn-lote1" href="../html/lotes/ice/ice.html">Ver Lote</a>
+        <a class="lote form1" href="./compra-venda/cvend.html">Instruções</a>
+      </div>
+    </div>
+
+    <!-- Next and previous buttons -->
+    <a class="swiper-button-prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="swiper-button-next" onclick="plusSlides(1)">&#10095;</a>
+
+
+    <!-- The dots/circles -->
+    <div style="text-align:center">
+      <span class="swiper-pagination" onclick="currentSlide(1)"></span>
+      <span class="swiper-pagination" onclick="currentSlide(2)"></span>
+      <span class="swiper-pagination" onclick="currentSlide(3)"></span>
+    </div>
+  </section>
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+  <!-- <script src="../js/slideshow.js"></script> -->
+  <script src="../js/slide-auto.js"></script>
+
+
+
+  <!-- imagens grid horizontal -->
+  <section class="banner grid1">
+    <div class="banner img-grid1">
+      <a class="lote btn-lote3" href="./">Ver Lote</a>
+      <a class="lote form3" href="./">Formulário</a>
+    </div>
+    <div class="banner img-grid2">
+      <a class="lote btn-lote4" href="./">Ver Lote</a>
+      <a class="lote form4" href="./">Formulário</a>
+    </div>
+  </section>
+
+  <!-- galeria imagens -->
+  <section class="banner grid2">
+    <div class="container">
+      <div class="container cont-galeria">
+        <div class="cont-galeria cont">
+          <div class="cont-galeria imgc1"></div>
+          <div class="temp-btn">
+            <p class="temp">tempo</p>
+            <a class="btn lance" href="./">Dar Lance</a>
+          </div>
+        </div>
+        <div class="cont-galeria cont">
+          <div class="cont-galeria imgc2"></div>
+          <div class="temp-btn">
+            <p class="temp">tempo</p>
+            <a class="btn lance" href="./">Dar Lance</a>
+          </div>
+        </div>
+        <div class="cont-galeria cont">
+          <div class="cont-galeria imgc3"></div>
+          <div class="temp-btn">
+            <p class="temp">tempo</p>
+            <a class="btn lance" href="./">Dar Lance</a>
+          </div>
+        </div>
+        <div class="cont-galeria cont">
+          <div class="cont-galeria imgc4"></div>
+          <div class="temp-btn">
+            <p class="temp">tempo</p>
+            <a class="btn lance" href="./">Dar Lance</a>
+          </div>
+        </div>
+        <!-- <div class="cont-galeria cont">
+          <div class="cont-galeria imgc5"></div>
+        </div> -->
+      </div>
+    </div>
+
+  </section>
+
+
+  <footer class="rodape">
+    <div>
+      <p>mapa do site</p>
+    </div>
+
+  </footer>
+</body>
+
+</html>

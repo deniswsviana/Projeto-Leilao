@@ -1,0 +1,79 @@
+@import url(../style.css);
+@import url(./thumbnail.css);
+
+.main-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 600px;
+}
+.prod {
+  grid-column: 1;
+  background-color: #e6e6e6;
+  
+}
+.img-prod {
+  margin:  25px;
+  background-color: #fafafa;
+  position: relative;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+
+}
+.prod-img1{
+  height: 400px;
+  width: 91%;
+  background-image: url(../../img-low/anel-casamento/amanda-mocci-Zyp3t67rrP4-unsplash.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+}
+.prod-img2{
+  height: 400px;
+  width: 91%;
+  background-image: url(../../img-low/anel-casamento/antonio-uquiche-W6s6eJc0CTY-unsplash.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}.prod-img3{
+  height: 400px;
+  width: 91%;
+  background-image: url(../../img-low/anel-casamento/antonio-uquiche-xD_XnntwCw0-unsplash.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}.prod-img4{
+  height: 400px;
+  width: 91%;
+  background-image: url(../../img-low/anel-casamento/nick-karvounis-_gk37K9JqWo-unsplash.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.desc {
+  grid-column: 2;
+  background-color: #fafafa;
+}
+.desc-prod {
+  margin: 30px;
+  height: 90%;
+  background-color: #e6e6e6;
+  display: grid;
+  justify-items: center;
+  gap: 2.5rem ;
+  /* align-items: center; */
+
+}
+.prod-desc{
+  margin:0px 30px;
+  
+}
+.prod-title{
+  line-height: 5rem;
+  padding: 0px 0px 20px 0px;
+}
