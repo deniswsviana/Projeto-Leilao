@@ -31,6 +31,9 @@
 
 
 #banner-comprar-lance {
-  padding: 30px;
   background-color: teal;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }

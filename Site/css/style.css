@@ -1,9 +1,9 @@
 @import url(./global.css);
 @import url(./slideshow.css);
 @import url(../css/garden.css);
-@import url(../css/sobre.css);
+/* @import url(../css/sobre.css); */
 @import url(./comprar-lance.css);
-@import url(./bootstrap.css);
+
 
 
 .banner {
@@ -51,7 +51,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  width: 100px;
+  width: 120px;
   padding: 10px 25px;
   color: #fff;
 }
