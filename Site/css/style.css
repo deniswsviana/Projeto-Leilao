@@ -5,7 +5,9 @@
 @import url(./comprar-lance.css);
 
 
-
+* {
+  box-sizing: border-box;
+}
 .banner {
   height: 650px;
   background-repeat: no-repeat;
@@ -45,6 +47,17 @@
   font-size: 14px;
   color: #04293a;
 }
+.btn-lote1:hover,
+.btn-lote3:hover,
+.btn-lote4:hover,
+.btn-g1:hover,
+.btn-g2:hover,
+.btn-g3:hover,
+.btn-g4:hover {
+  transition-duration: 0.6s;
+  background-color: white;
+  color: #04293a;
+}
 
 .lote {
   display: flex;
@@ -59,7 +72,6 @@
 .img1 {
   background-image: url(../img-low/anel-casamento/amanda-mocci-Zyp3t67rrP4-unsplash.webp);
   display: block;
-  
 }
 .btn-lote1 {
   text-decoration: none;
@@ -79,15 +91,12 @@
 .img2 {
   background-image: url(../img-low/gita-krishnamurti-TUH4KRKoUEg-unsplash.webp);
   display: block;
-
 }
 /* imagem 3 slideshow */
-.img3{
+.img3 {
   background-image: url(../img-low/ice/engin-akyurt-FsuqRsukQRA-unsplash.webp);
   display: block;
-
 }
-
 
 /* imagem 1 grid 50% */
 .grid1 {
@@ -133,31 +142,44 @@
   top: 550px;
 }
 /* imagens galeria */
-.grid2 { /* background galeria */
+.grid2 {
+  /* background galeria */
   background-image: url(../img-low/pawel-czerwinski-Zd315A95aqg-unsplash.webp);
   background-position: center bottom;
+  max-width: 100%;
 }
 .container {
   align-self: center;
   display: flex;
+  margin: auto;
+  max-width: 100vh;
   justify-content: space-around;
-  margin-top: 80px;
-  max-width: 100%;
 }
 .cont-galeria {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  max-width: 1000px;
-  margin: 0px 20px 0px 20px;
+  /* margin: 0px 20px 0px 20px; */
   border-radius: 5px;
-
+  gap: 20px;
 }
 .cont {
   background-color: #fcfcfc;
   height: 400px;
-  width: 350px;
+  width: 330px;
 }
+.temp-btn {
+  justify-content: space-between;
+}
+.timer {
+  align-self: center;
+  border-style: inset;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 5px 10px;
+  /* border-color: #04293a; */
+}
+
 .imgc1 {
   height: 300px;
   width: 300px;
@@ -180,23 +202,16 @@
 .imgc4 {
   height: 300px;
   width: 300px;
-    margin: 20px 20px;
+  margin: 20px 20px;
   background-image: url(../img-low/jenna-day-B-JtfqdHemU-unsplash.webp);
 }
 .imgc5 {
   height: 300px;
   width: 260px;
-    margin: 20px 20px;
+  margin: 20px 20px;
   background-image: url(../img-low/joel-de-vera-hV3K5Wpyst4-unsplash.webp);
 }
 
-/* rodape */
-.rodape {
-  background-color: #050505;
-  height: 60px;
-  color: #fcfcfc;
-  margin: 40px;
-}
 /* leiloes */
 section {
   display: grid;
@@ -209,41 +224,43 @@ section {
   background-position: center;
   grid-template-columns: 50% 50%;
   height: 800px;
+  margin: 5px;
 }
 .galeria-text {
   position: absolute;
-  left: 100px;
-  top: 650px;
 }
-.g1 {
-  grid-column: 1;
-  background-image: url(../img-low/arteum-ro-9QArBVqD7mE-unsplash.webp);
+
+/* rodape */
+.rodape {
+  background-color: #050505;
+  height: 60px;
+  color: #fcfcfc;
+  margin: 40px;
 }
-.g1-text {
-  position: relative;
-  left: 270px;
-  top: 600px;
+.footer{
+  background: #000;
+  
 }
-.btn-g1 {
-  position: relative;
-  text-decoration: none;
-  color: #fff;
-  border: 1px solid rgba(255, 255, 255, 0.8);
-  border-radius: 5px;
-  position: absolute;
-  top: 50px;
+
+.footer-container{
+  margin-top: 50px;
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 100px;
+  margin: 0 auto;
+  color: #8f8f8f;
 }
-.g2 {
-  grid-column: 2;
-  background-image: url(../img-low/fanqi-VLy8wPYpV9s-unsplash.webp);
+
+.footer-copy{
+  font-size: 1.125rem;
+  color: #8f8f8f;
+  align-self: end ;
+  padding: 10px;
 }
-.g3 {
-  grid-column: 1;
-  grid-row: 2;
-  background-image: url(../img-low/gita-krishnamurti-TUH4KRKoUEg-unsplash.webp);
-}
-.g4 {
-  grid-column: 2;
-  grid-row: 2;
-  background-image: url(../img-low/jenna-day-B-JtfqdHemU-unsplash.webp);
+
+.footer-contato li{
+  list-style: none;
+  padding: 10px;
+  margin: 20px 0px;
 }

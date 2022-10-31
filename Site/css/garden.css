@@ -50,17 +50,17 @@
   text-align: center;
 }
 .garden-galeria {
-  height: auto;
+  height: fit-content;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
-  gap: 10px 0px;
+  /* justify-content: space-around; */
+  gap: 10px ;
   
 }
 .img-garden {
   background-color: #fcfcfc;
   height: 400px;
-  width: 350px;
+  width: 330px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

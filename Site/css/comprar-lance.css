@@ -4,6 +4,7 @@
   text-transform: uppercase;
   border-bottom: solid 2px;
   margin-bottom: 40px;
+  margin-top: 40px;
 }
 
 .pacote-area {
@@ -32,8 +33,12 @@
 
 #banner-comprar-lance {
   background-color: teal;
-  height: 300px;
+  height: 400px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  background-image: url(../img/beneficios_da_base_de_leilao_infocar-1.png);
+}
+body{
+  background-color: #fff;
 }
