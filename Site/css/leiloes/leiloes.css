@@ -1,6 +1,7 @@
 /* leiloes */
 .sessao{
   height: 1600px;
+  margin: 0px 5px;
 }
 .galeria {
   display: grid;
@@ -9,7 +10,7 @@
   background-position: center;
   grid-template-columns: 50% 50%;
   /* height: 800px; */
-  margin: 5px;
+  
 }
 .galeria-text {
   position: absolute;

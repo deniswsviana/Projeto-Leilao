@@ -1,9 +1,11 @@
 @import url(./global.css);
 @import url(./slideshow.css);
 @import url(../css/garden.css);
+@import url(./dropdown/dropdown.css);
+@import url(./dropdown/login-drop.css);
+@import url(./responsive/responsive.css);
 /* @import url(../css/sobre.css); */
-@import url(./comprar-lance.css);
-
+/* @import url(./comprar-lance.css); */
 
 * {
   box-sizing: border-box;
@@ -14,17 +16,19 @@
   background-size: cover;
   background-position: center;
 }
+
 .menu-list {
   display: flex;
   flex-wrap: wrap;
   font-size: 16px;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 20px;
+  padding: 0px 20px;
   background-color: #fcfcfc;
 }
 .menu-list a {
   color: #04293a;
+  /* padding: 20px 10px; */
 }
 .menu-list span {
   font-family: Playfair Display;
@@ -35,7 +39,7 @@
 .btn-login {
   display: flex;
   align-items: center;
-  gap: 40px;
+  gap: 20px;
 }
 .btn {
   padding: 10px 20px;
@@ -68,6 +72,27 @@
   padding: 10px 25px;
   color: #fff;
 }
+.banner-title {
+  position: absolute;
+  left: 30px;
+  bottom: 300px;
+  width: 300px;
+  justify-content: left;
+}
+.banner-text {
+  position: absolute;
+  left: 30px;
+  width: 450px;
+  bottom: 130px;
+  justify-content: left;
+  line-height: 1.3rem;
+}
+.joiama{
+  position: absolute;
+  top: 460px;
+}
+
+
 /* imagem 1 slideshow */
 .img1 {
   background-image: url(../img-low/anel-casamento/amanda-mocci-Zyp3t67rrP4-unsplash.webp);
@@ -168,6 +193,20 @@
   height: 400px;
   width: 330px;
 }
+.hammer-timer {
+  display: flex;
+  gap: 10px;
+}
+/* hammer */
+.hammer {
+  background-image: url(../img-low/hammer/hammer25.svg);
+  /* background-size: cover; */
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 30px;
+  height: 25px;
+}
+/* timer */
 .temp-btn {
   justify-content: space-between;
 }
@@ -178,6 +217,7 @@
   border-radius: 5px;
   padding: 5px 10px;
   /* border-color: #04293a; */
+  color: #04293a;
 }
 
 .imgc1 {
@@ -224,7 +264,6 @@ section {
   background-position: center;
   grid-template-columns: 50% 50%;
   height: 800px;
-  margin: 5px;
 }
 .galeria-text {
   position: absolute;
@@ -237,12 +276,11 @@ section {
   color: #fcfcfc;
   margin: 40px;
 }
-.footer{
+.footer {
   background: #000;
-  
 }
 
-.footer-container{
+.footer-container {
   margin-top: 50px;
   max-width: 1200px;
   display: grid;
@@ -252,15 +290,43 @@ section {
   color: #8f8f8f;
 }
 
-.footer-copy{
+.footer-copy {
   font-size: 1.125rem;
   color: #8f8f8f;
-  align-self: end ;
+  align-self: end;
   padding: 10px;
 }
 
-.footer-contato li{
+.footer-contato li {
   list-style: none;
   padding: 10px;
   margin: 20px 0px;
+}
+
+/* responsive  */
+@media (min-width: 1470px) {
+  .banner {
+    height: 850px;
+  }
+  .btn-lote1,
+  .form1,
+  .btn-lote3,
+  .form3,
+  .btn-lote4,
+  .form4 {
+    top: 750px;
+  }
+}
+@media (max-width: 1470px) {
+  /* .banner {
+    height: 850px;
+  } */
+  .btn-lote1,
+  .form1,
+  .btn-lote3,
+  .form3,
+  .btn-lote4,
+  .form4 {
+    top: 550px;
+  }
 }

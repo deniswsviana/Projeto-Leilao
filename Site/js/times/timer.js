@@ -19,10 +19,10 @@ function starTimer(duration, display) {
 }
 
 window.onload = function () {
-  var ranTimer = Math.floor(Math.random() * (60 - 25) + 25);
-  var duration = 60 * ranTimer;
-  var display = document.querySelector(".timer", ".timer1");
-
-  starTimer(duration, display);
-}
-
+  for (var i = 0; i < 99; i++) {
+    var ranTimer = Math.floor(Math.random() * (60 - 25) + 25);
+    var duration = 60 * ranTimer;
+    var display = document.querySelector(".timer" + i);
+    starTimer(duration, display);
+  }
+};

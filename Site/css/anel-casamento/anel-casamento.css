@@ -70,10 +70,16 @@
 
 }
 .prod-desc{
-  margin:0px 30px;
+  /* margin:0px 30px; */
+  margin: auto 40px;
   
 }
 .prod-title{
   line-height: 5rem;
   padding: 0px 0px 20px 0px;
+}
+
+.temp-btn{
+  gap: 50px ;
+  justify-self: left;
 }

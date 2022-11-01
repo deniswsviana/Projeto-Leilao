@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <link rel="stylesheet" href="../../../../css/style.css">
   <link rel="stylesheet" href="../../../../css/anel-casamento/anel-casamento.css">
+
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Anel de Casamento</title>
@@ -17,13 +18,64 @@
       <div class="menu-list links">
         <a href="../../../leiloes/leiloes.html">Leilões</a>
         <a href="../../../compra-venda/cvend.html">Comprando <span>&</span> vendendo</a>
-        <a href="../../../especialidades/especialidades.html">Especialidades</a>
+        <div class="dropdown">
+          <button class="dropbtn">Especialidades</button>
+          <div class="dropdown-content">
+            <a href="../../../lotes/garden/garden.html">Garden</a>
+            <a href="../../../lotes/desert/desert.html">Desert</a>
+            <a href="../../../lotes/ice/ice.html">Ice</a>
+          </div>
+        </div>
         <a href="../../../sobre/sobre.html">Sobre</a>
         <a href="../../../meus-lotes/mlotes.html">Meus Lotes</a>
       </div>
       <div class="btn-login">
-        <a class="btn" href="./">Comprar Lance</a>
-        <a href="./"><img src="../../../../login/carbon_user-avatar.svg" alt="login"></a>
+        <a class="btn" href="../../../ompra-lance/comprar-lance.html">Comprar Lance</a>
+        <div class="login-dropdown">
+          <button onclick="myFunction()" class="login-dropbtn"></button>
+          <div id="myDropdown" class="login-dropdown-content">
+            <div class="container-login">
+              <form action="/action_page.php">
+                <div class="row">
+                  <h2 style="text-align:center">Login with Social Media or Manually</h2>
+                  <div class="vl">
+                    <span class="vl-innertext">or</span>
+                  </div>
+                  <div class="col">
+                    <a href="#" class="fb login-btn">
+                      <i class="fa fa-facebook fa-fw"></i> Login with Facebook
+                    </a>
+                    <a href="#" class="twitter login-btn">
+                      <i class="fa fa-twitter fa-fw"></i> Login with Twitter
+                    </a>
+                    <a href="#" class="google login-btn">
+                      <i class="fa fa-google fa-fw"></i> Login with Google+
+                    </a>
+                  </div>
+                  <div class="col">
+                    <div class="hide-md-lg">
+                      <p>Or sign in manually:</p>
+                    </div>
+                    <input type="text" name="username" placeholder="Username" required>
+                    <input type="password" name="password" placeholder="Password" required>
+                    <input type="submit" value="Login">
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div class="bottom-container">
+              <div class="row">
+                <div class="col">
+                  <a href="#" style="color:white" class="login-btn">Sign up</a>
+                </div>
+                <div class="col">
+                  <a href="#" style="color:white" class="login-btn">Forgot password?</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <script src="../../../../js/logindropdown.js"></script>
       </div>
     </nav>
   </header>
@@ -60,11 +112,21 @@
     <div class="desc">
       <div class="desc-prod">
         <div class="prod-desc">
-          <h1 class="prod-title">Lorem ipsum</h1>
-          <p class="prod-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam laborum quas voluptatum rerum explicabo nobis in, possimus libero iste maxime exercitationem saepe id. Eum, et! Reiciendis beatae quae quod corporis?</p>
+          <h1 class="prod-title">Garden Colection</h1>
+          <p class="prod-text">Cada pedra natural possui um ou mais significados e, como se não bastasse a beleza estonteante que elas carregam, elas são capazes de trazer diversos benefícios à vida de quem as usa e ainda servem para simbolizar determinados sentimentos e intenções. Na Harvest você pode encontrar joias da melhor qualidade. - GARDEN</p>
+        </div>
+        <div>
+          <div class="temp-btn">
+            <div class="timer hammer-timer">
+              <div class="hammer"></div>
+              <div class="timer33"></div>
+            </div>
+            <a class="btn lance" href="./">Dar Lance</a>
+          </div>
         </div>
       </div>
     </div>
+    <script src="../../../../js/times/timer.js"></script>
     </div>
   </main>
   <footer class="footer">

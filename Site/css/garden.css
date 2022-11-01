@@ -15,8 +15,10 @@
   position: absolute;
   top: 75%;
   left: 4%;
-  width: 400px;
-  font-size: 3rem; 
+  width: 450px;
+  font-size: 3rem;
+  line-height: 1.5rem;
+  justify-self: right;
 }
 .garden-text{
   position: absolute;
@@ -55,18 +57,21 @@
   flex-wrap: wrap;
   /* justify-content: space-around; */
   gap: 10px ;
-  
+  justify-content: space-around;
 }
+
 .img-garden {
   background-color: #fcfcfc;
   height: 400px;
-  width: 330px;
+  width: 340px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 5px;
 
 }
+
+
 .temp-btn{
   display: flex;
   margin: 25px;

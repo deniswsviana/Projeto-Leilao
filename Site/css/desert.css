@@ -14,15 +14,18 @@
 .garden-title{
   position: absolute;
   top: 75%;
-  left: 4%;
-  width: 400px;
+  left: 5%;
+  width: 600px;
   font-size: 3rem; 
+  line-height: 1.3rem;
+  justify-content: left;
 }
 .garden-text{
   position: absolute;
   top: 90%;
-  width: 500px;
+  width: 600px;
   left: 5%;
+  justify-content: left;
 }
 .backgarden {
   background-image: url(../img-low/pawel-czerwinski-Zd315A95aqg-unsplash.webp);
@@ -59,7 +62,7 @@
 .img-garden {
   background-color: #fcfcfc;
   height: 400px;
-  width: 350px;
+  width: 330px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

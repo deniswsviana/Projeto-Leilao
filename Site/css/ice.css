@@ -4,7 +4,7 @@
   height: 400px;
 }
 .img-banner {
-  background-image: url(../img-low/ice/carlos-esteves-1MWbwTaeJIA-unsplash.webp);
+  background-image: url(../img-low/ice/edgar-soto-gb0BZGae1Nk-unsplash.webp);
   height: 500px;
 }
 .divisao {
@@ -14,15 +14,19 @@
 .garden-title{
   position: absolute;
   top: 75%;
-  left: 4%;
-  width: 400px;
+  left: 5%;
+  width: 600px;
   font-size: 3rem; 
+  justify-content: left;
+
 }
 .garden-text{
   position: absolute;
   top: 90%;
-  width: 500px;
+  width: 600px;
   left: 5%;
+  justify-content: left;
+
 }
 .backgarden {
   background-image: url(../img-low/ice/evie-s-dcniOOqByj0-unsplash.webp);
@@ -59,7 +63,7 @@
 .img-garden {
   background-color: #fcfcfc;
   height: 400px;
-  width: 350px;
+  width: 330px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

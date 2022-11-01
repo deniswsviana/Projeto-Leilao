@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="../../css/style.css">
+  <link rel="stylesheet" href="../css/swiper.css" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Harvest</title>
+</head>
+<body>
+  <header class="menu">
+    <nav class="menu-list">
+      <a href="../index.html"><img src="../../logo/LOGO.svg" alt=""></a>
+      <div class="menu-list links">
+        <a href="../leiloes/leiloes.html">Leilões</a>
+        <a href="../compra-venda/cvend.html">Comprando <span>&</span> vendendo</a>
+        <div class="dropdown">
+          <button class="dropbtn">Especialidades</button>
+          <div class="dropdown-content">
+            <a href="../lotes/garden/garden.html">Garden</a>
+            <a href="../lotes/desert/desert.html">Desert</a>
+            <a href="../lotes/ice/ice.html">Ice</a>
+          </div>
+        </div>
+        <a href="../sobre/sobre.html">Sobre</a>
+        <a href="../meus-lotes/mlotes.html">Meus Lotes</a>
+      </div>
+      <div class="btn-login">
+        <a class="btn" href="../compra-lance/comprar-lance.html">Comprar Lance</a>
+        <div class="login-dropdown">
+          <button onclick="myFunction()" class="login-dropbtn"></button>
+            <div id="myDropdown" class="login-dropdown-content">
+              <div class="container-login">
+                <form action="/action_page.php">
+                  <div class="row">
+                    <h2 style="text-align:center">Login with Social Media or Manually</h2>
+                    <div class="vl">
+                      <span class="vl-innertext">or</span>
+                    </div>
+                    <div class="col">
+                      <a href="#" class="fb login-btn">
+                        <i class="fa fa-facebook fa-fw"></i> Login with Facebook
+                      </a>
+                      <a href="#" class="twitter login-btn">
+                        <i class="fa fa-twitter fa-fw"></i> Login with Twitter
+                      </a>
+                      <a href="#" class="google login-btn">
+                        <i class="fa fa-google fa-fw"></i> Login with Google+
+                      </a>
+                    </div>
+                    <div class="col">
+                      <div class="hide-md-lg">
+                        <p>Or sign in manually:</p>
+                      </div>
+                      <input type="text" name="username" placeholder="Username" required>
+                      <input type="password" name="password" placeholder="Password" required>
+                      <input type="submit" value="Login">
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div class="bottom-container">
+                <div class="row">
+                  <div class="col">
+                    <a href="#" style="color:white" class="login-btn">Sign up</a>
+                  </div>
+                  <div class="col">
+                    <a href="#" style="color:white" class="login-btn">Forgot password?</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+        <script src="../../js/logindropdown.js"></script>
+      </div>
+    </nav>
+  </header>
+</body>

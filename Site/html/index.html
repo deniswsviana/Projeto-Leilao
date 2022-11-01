@@ -17,27 +17,87 @@
       <div class="menu-list links">
         <a href="./leiloes/leiloes.html">Leilões</a>
         <a href="./compra-venda/cvend.html">Comprando <span>&</span> vendendo</a>
-        <a href="./especialidades/especialidades.html">Especialidades</a>
+        <div class="dropdown">
+          <button class="dropbtn">Especialidades</button>
+          <div class="dropdown-content">
+            <a href="../html/lotes/garden/garden.html">Garden</a>
+            <a href="./lotes/desert/desert.html">Desert</a>
+            <a href="./lotes/ice/ice.html">Ice</a>
+          </div>
+        </div>
         <a href="./sobre/sobre.html">Sobre</a>
         <a href="./meus-lotes/mlotes.html">Meus Lotes</a>
       </div>
       <div class="btn-login">
         <a class="btn" href="./compra-lance/comprar-lance.html">Comprar Lance</a>
-        <a href="./"><img src="../login/carbon_user-avatar.svg" alt="login"></a>
+        <div class="login-dropdown">
+          <button onclick="myFunction()" class="login-dropbtn"></button>
+          <div id="myDropdown" class="login-dropdown-content">
+            <div class="container-login">
+              <form action="/action_page.php">
+                <div class="row">
+                  <h2 style="text-align:center">Login with Social Media or Manually</h2>
+                  <div class="vl">
+                    <span class="vl-innertext">or</span>
+                  </div>
+                  <div class="col">
+                    <a href="#" class="fb login-btn">
+                      <i class="fa fa-facebook fa-fw"></i> Login with Facebook
+                    </a>
+                    <a href="#" class="twitter login-btn">
+                      <i class="fa fa-twitter fa-fw"></i> Login with Twitter
+                    </a>
+                    <a href="#" class="google login-btn">
+                      <i class="fa fa-google fa-fw"></i> Login with Google+
+                    </a>
+                  </div>
+                  <div class="col">
+                    <div class="hide-md-lg">
+                      <p>Or sign in manually:</p>
+                    </div>
+                    <input type="text" name="username" placeholder="Username" required>
+                    <input type="password" name="password" placeholder="Password" required>
+                    <input type="submit" value="Login">
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div class="bottom-container">
+              <div class="row">
+                <div class="col">
+                  <a href="#" style="color:white" class="login-btn">Sign up</a>
+                </div>
+                <div class="col">
+                  <a href="#" style="color:white" class="login-btn">Forgot password?</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <script src="../js/logindropdown.js"></script>
       </div>
     </nav>
   </header>
   <section class="banner swiper mySwiper">
     <div class="banner swiper-wrapper">
       <div class="banner swiper-slide img1">
+        <h1 class="lote banner-title">Garden Colection</h1>
+        <p class="lote banner-text">Cada pedra natural possui um ou mais significados e, como se não bastasse a beleza estonteante que elas carregam, elas são capazes de trazer diversos benefícios à vida de quem as usa e ainda servem para simbolizar determinados sentimentos e intenções. Na Harvest você pode encontrar joias da melhor qualidade. <br>  GARDEN</p>
+
         <a class="lote btn-lote1" href="./lotes/garden/garden.html">Ver Lote</a>
         <a class="lote form1" href="./compra-venda/cvend.html">Instruções</a>
       </div>
       <div class="banner swiper-slide img2">
+        <h1 class="lote banner-title joiama">Joias de ouro amarelo</h1>
+        <p class="lote banner-text">Além de seus atributos funcionais enquanto matéria prima, ele também é apreciado por sua beleza e brilho que não se perdem ou escurecem, mesmo com o passar dos anos. Seu caráter vistoso é adorado desde os primórdios da humanidade, sendo utilizado como símbolo de poder e status.Na Harvest você pode encontrar ouro amarelo da melhor qualidade. <br> DESERT</p>
+
         <a class="lote btn-lote1" href="./lotes/desert/desert.html">Ver Lote</a>
         <a class="lote form1" href="./compra-venda/cvend.html">Instruções</a>
       </div>
       <div class="banner swiper-slide img3">
+        <h1 class="lote banner-title">Joias com ouro branco</h1>
+        <p class="lote banner-text">As joias em ouro branco têm um charme inigualável, elas costumam ser mais discretas e agradar homens e mulheres que gostam do tom prateado, mas não abrem mão de peças luxuosas e de alto valor agregado. Na Harvest você pode encontrar ouro branco da melhor qualidade. <br>  OURO BRANCO - ICE</p>
+
         <a class="lote btn-lote1" href="../html/lotes/ice/ice.html">Ver Lote</a>
         <a class="lote form1" href="./compra-venda/cvend.html">Instruções</a>
       </div>
@@ -66,10 +126,16 @@
   <!-- imagens grid horizontal -->
   <section class="banner grid1">
     <div class="banner img-grid1">
+      <h1 class="lote banner-title joiama">Joias de ouro amarelo</h1>
+      <p class="lote banner-text">Além de seus atributos funcionais enquanto matéria prima, ele também é apreciado por sua beleza e brilho que não se perdem ou escurecem, mesmo com o passar dos anos. Seu caráter vistoso é adorado desde os primórdios da humanidade, sendo utilizado como símbolo de poder e status.Na Harvest você pode encontrar ouro amarelo da melhor qualidade. <br> DESERT</p>
+
       <a class="lote btn-lote3" href="./">Ver Lote</a>
       <a class="lote form3" href="./compra-venda/cvend.html">Instruções</a>
     </div>
     <div class="banner img-grid2">
+      <h1 class="lote banner-title joiama">Joias de ouro amarelo</h1>
+      <p class="lote banner-text">Além de seus atributos funcionais enquanto matéria prima, ele também é apreciado por sua beleza e brilho que não se perdem ou escurecem, mesmo com o passar dos anos. Seu caráter vistoso é adorado desde os primórdios da humanidade, sendo utilizado como símbolo de poder e status.Na Harvest você pode encontrar ouro amarelo da melhor qualidade. <br> DESERT</p>
+
       <a class="lote btn-lote4" href="./">Ver Lote</a>
       <a class="lote form4" href="./compra-venda/cvend.html">Instruções</a>
     </div>
@@ -82,7 +148,10 @@
         <div class="cont-galeria cont">
           <div class="cont-galeria imgc1"></div>
           <div class="temp-btn">
-            <div class="timer"></div>
+            <div class="timer hammer-timer">
+              <div class="hammer"></div>
+              <div class="timer1"></div>
+            </div>
             <a class="btn lance" href="./">Dar Lance</a>
 
           </div>
@@ -90,21 +159,30 @@
         <div class="cont-galeria cont">
           <div class="cont-galeria imgc2"></div>
           <div class="temp-btn">
-            <div class="timer"></div>
+            <div class="timer hammer-timer">
+              <div class="hammer"></div>
+              <div class="timer2"></div>
+            </div>
             <a class="btn lance" href="./">Dar Lance</a>
           </div>
         </div>
         <div class="cont-galeria cont">
           <div class="cont-galeria imgc3"></div>
           <div class="temp-btn">
-            <div class="timer"></div>
+            <div class="timer hammer-timer">
+              <div class="hammer"></div>
+              <div class="timer3"></div>
+            </div>
             <a class="btn lance" href="./">Dar Lance</a>
           </div>
         </div>
         <div class="cont-galeria cont">
           <div class="cont-galeria imgc4"></div>
           <div class="temp-btn">
-            <div class="timer"></div>
+            <div class="timer hammer-timer">
+              <div class="hammer"></div>
+              <div class="timer4"></div>
+            </div>
             <a class="btn lance" href="./">Dar Lance</a>
           </div>
           <script src="../js/times/timer.js"></script>
@@ -118,7 +196,7 @@
   </section>
 
 
-  
+
 </body>
 <footer class="footer">
   <div class="footer-container">
@@ -130,4 +208,5 @@
   </div>
 
 </footer>
+
 </html>

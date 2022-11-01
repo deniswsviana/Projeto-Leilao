@@ -12,24 +12,76 @@
 <body>
   <header class="menu">
     <nav class="menu-list">
-      <a href="../../index.html"><img src="../../../logo/LOGO.svg" alt=""></a>
+      <a href="./index.html"><img src="../../../logo/LOGO.svg" alt=""></a>
       <div class="menu-list links">
-        <a href="leiloes.html">Leilões</a>
-        <a href="./cvend.html">Comprando <span>&</span> vendendo</a>
-        <a href="./especialidades.html">Especialidades</a>
-        <a href="./sobre.html">Sobre</a>
-        <a href="./mlotes.html">Meus Lotes</a>
+        <a href="../../leiloes/leiloes.html">Leilões</a>
+        <a href="../../compra-venda/cvend.html">Comprando <span>&</span> vendendo</a>
+        <div class="dropdown">
+          <button class="dropbtn">Especialidades</button>
+          <div class="dropdown-content">
+            <a href="../../lotes/garden/garden.html">Garden</a>
+            <a href="../../lotes/desert/desert.html">Desert</a>
+            <a href="../../lotes/ice/ice.html">Ice</a>
+          </div>
+        </div>
+        <a href="../../sobre/sobre.html">Sobre</a>
+        <a href="../../meus-lotes/mlotes.html">Meus Lotes</a>
       </div>
       <div class="btn-login">
-        <a class="btn" href="./">Comprar Lance</a>
-        <a href="./"><img src="../../../login/carbon_user-avatar.svg" alt="login"></a>
+        <a class="btn" href="../../compra-lance/comprar-lance.html">Comprar Lance</a>
+        <div class="login-dropdown">
+          <button onclick="myFunction()" class="login-dropbtn"></button>
+            <div id="myDropdown" class="login-dropdown-content">
+              <div class="container-login">
+                <form action="/action_page.php">
+                  <div class="row">
+                    <h2 style="text-align:center">Login with Social Media or Manually</h2>
+                    <div class="vl">
+                      <span class="vl-innertext">or</span>
+                    </div>
+                    <div class="col">
+                      <a href="#" class="fb login-btn">
+                        <i class="fa fa-facebook fa-fw"></i> Login with Facebook
+                      </a>
+                      <a href="#" class="twitter login-btn">
+                        <i class="fa fa-twitter fa-fw"></i> Login with Twitter
+                      </a>
+                      <a href="#" class="google login-btn">
+                        <i class="fa fa-google fa-fw"></i> Login with Google+
+                      </a>
+                    </div>
+                    <div class="col">
+                      <div class="hide-md-lg">
+                        <p>Or sign in manually:</p>
+                      </div>
+                      <input type="text" name="username" placeholder="Username" required>
+                      <input type="password" name="password" placeholder="Password" required>
+                      <input type="submit" value="Login">
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div class="bottom-container">
+                <div class="row">
+                  <div class="col">
+                    <a href="#" style="color:white" class="login-btn">Sign up</a>
+                  </div>
+                  <div class="col">
+                    <a href="#" style="color:white" class="login-btn">Forgot password?</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+        <script src="../../../js/logindropdown.js"></script>
       </div>
     </nav>
   </header>
+
   <Section class="garden">
     <div class="banner img-banner">
       <h1 class="lote garden-title">Garden Colection</h1>
-      <p class="lote garden-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores adipisci, necessitatibus tempora id excepturi cumque voluptatum eaque voluptatem iste eius odio voluptates, labore officiis ducimus dicta quasi, eligendi minima vitae.</p>
+      <p class="lote garden-text">Cada pedra natural possui um ou mais significados e, como se não bastasse a beleza estonteante que elas carregam, elas são capazes de trazer diversos benefícios à vida de quem as usa e ainda servem para simbolizar determinados sentimentos e intenções. Na Harvest você pode encontrar joias da melhor qualidade. - GARDEN</p>
     </div>
     <span class="divisao"></span>
     <div>
@@ -40,71 +92,97 @@
             <div class="img-garden garden-img1">
             </div>
             <div class="temp-btn">
-              <p class="temp">tempo</p>
+              <div class="timer hammer-timer">
+                <div class="hammer"></div>
+                <div class="timer5"></div>
+              </div>
               <a class="btn lance" href="../garden/anel-casamento/anel-casamento.html">Dar Lance</a>
             </div>
           </div>
           <div class="img-garden">
             <div class="img-garden garden-img2"></div>
             <div class="temp-btn">
-              <p class="temp">tempo</p>
+              <div class="timer hammer-timer">
+                <div class="hammer"></div>
+                <div class="timer6"></div>
+              </div>
               <a class="btn lance" href="./">Dar Lance</a>
             </div>
           </div>
           <div class="img-garden">
             <div class="img-garden garden-img3"></div>
             <div class="temp-btn">
-              <p class="temp">tempo</p>
+              <div class="timer hammer-timer">
+                <div class="hammer"></div>
+                <div class="timer7"></div>
+              </div>
               <a class="btn lance" href="./">Dar Lance</a>
             </div>
           </div>
           <div class="img-garden">
             <div class="img-garden garden-img4"></div>
             <div class="temp-btn">
-              <p class="temp">tempo</p>
+              <div class="timer hammer-timer">
+                <div class="hammer"></div>
+                <div class="timer8"></div>
+              </div>
               <a class="btn lance" href="./">Dar Lance</a>
             </div>
           </div>
           <div class="img-garden">
             <div class="img-garden garden-img5"></div>
             <div class="temp-btn">
-              <p class="temp">tempo</p>
+              <div class="timer hammer-timer">
+                <div class="hammer"></div>
+                <div class="timer9"></div>
+              </div>
               <a class="btn lance" href="./">Dar Lance</a>
             </div>
           </div>
           <div class="img-garden">
             <div class="img-garden garden-img6"></div>
             <div class="temp-btn">
-              <p class="temp">tempo</p>
+              <div class="timer hammer-timer">
+              <div class="hammer"></div>
+              <div class="timer10"></div>
+            </div>
               <a class="btn lance" href="./">Dar Lance</a>
             </div>
           </div>
-          <div class="img-garden">
+          <div class="img-garden hidd">
             <div class="img-garden garden-img7"></div>
             <div class="temp-btn">
-              <p class="temp">tempo</p>
+              <div class="timer hammer-timer">
+              <div class="hammer"></div>
+              <div class="timer11"></div>
+            </div>
               <a class="btn lance" href="./">Dar Lance</a>
             </div>
           </div>
-          <div class="img-garden">
+          <div class="img-garden hidd">
             <div class="img-garden garden-img8"></div>
             <div class="temp-btn">
-              <p class="temp">tempo</p>
+              <div class="timer hammer-timer">
+              <div class="hammer"></div>
+              <div class="timer12"></div>
+            </div>
               <a class="btn lance" href="./">Dar Lance</a>
             </div>
           </div>
-  </Section>
-
+        </div>
+        <script src="../../../js/times/timer.js"></script>
+      </div>
+        <footer class="footer">
+          <div class="footer-container">
+            <p class="footer-copy">Yacc Harvest. Todos direitos reservados.</p>
+            <ul class="footer-contato">
+              <li>organizacao.yacc@gmail.com</li>
+              <li>SAC (11) 2567-3432</li>
+            </ul>
+          </div>
+        </footer>
+      </Section>
 
 </body>
-<footer class="footer">
-  <div class="footer-container">
-    <p class="footer-copy">Yacc Harvest. Todos direitos reservados.</p>
-    <ul class="footer-contato">
-      <li>organizacao.yacc@gmail.com</li>
-      <li>SAC (11) 2567-3432</li>
-    </ul>
-  </div>
 
-</footer>
 </html>

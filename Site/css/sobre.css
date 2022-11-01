@@ -6,11 +6,7 @@ body{
 .links {
   width: 600px;
 }
-.btn-login {
-  display: flex;
-  align-items: center;
-  gap: 40px;
-}
+
 .btn {
   padding: 10px 20px;
   text-transform: uppercase;
